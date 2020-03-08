@@ -1,0 +1,18 @@
+.form-group {
+  font-size: 4rem;
+}
+
+.form-control_1 {
+  height: 5rem;
+  font-size: 1.6rem;
+  border-top: none !important;
+  border-left: none !important;
+  border-right: none !important;
+  border-bottom: 1px solid gray !important;
+
+  &:focus {
+    outline: none !important;
+    -webkit-box-shadow: none !important;
+    }
+
+}

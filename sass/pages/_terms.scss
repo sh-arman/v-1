@@ -1,0 +1,20 @@
+
+.terms {
+  // background-color: red;
+  padding: 4rem;
+
+  &_heading {
+    font-size: 1.7rem;
+    text-decoration: none !important;
+    text-transform: capitalize;
+    color: #1DBF73;
+    cursor: pointer;
+    &:hover {
+      text-decoration: none !important;
+    }
+  }
+  &_para {
+    font-size: 1.4rem;
+    color: gray;
+  }
+}

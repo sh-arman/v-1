@@ -1,0 +1,58 @@
+.carousel {
+  background: #EEE;
+}
+.carousel-cell {
+  width: 28%;
+  margin-right: 10px;
+  // background: green;
+  border-radius: 5px;
+  counter-increment: carousel-cell;
+  margin: 2rem 0;
+  padding: 1.2rem;
+  transform-style: preserve-3d;
+  
+
+  @media (max-width: 950px){
+   width: 50%  !important;
+  }
+
+  @media (max-width: 600px){
+   width: 100%  !important;
+  }
+}
+
+
+
+// .carousel {
+//   background: #EEE;
+// }
+// .carousel-cell {
+//   width: 28%;
+//   height: 200px;
+//   margin-right: 10px;
+//   background: #8C8;
+//   border-radius: 5px;
+//   counter-increment: carousel-cell;
+//
+//   @media (max-width: 950px){
+//    width: 50%  !important;
+//   }
+//
+//   @media (max-width: 600px){
+//    width: 100%  !important;
+//   }
+// }
+
+// .carousel-cell.is-selected {
+//   background: #ED2;
+// }
+//
+// /* cell number */
+// .carousel-cell:before {
+//   display: block;
+//   text-align: center;
+//   content: counter(carousel-cell);
+//   line-height: 200px;
+//   font-size: 80px;
+//   color: white;
+// }
