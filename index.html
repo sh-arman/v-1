@@ -7,42 +7,52 @@
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <link rel="stylesheet" href="./css/style.css">
-  <link rel="stylesheet" href="./css/flickity.css" media="screen">
+  <link rel="stylesheet" href="./css/owl.carousel.css">
+  <link rel="stylesheet" href="./css/owl.theme.default.min.css">
   <title>INFiNITE | Home</title>
 </head>
 <body>
-<!-- Up to top
+<!-- Up to top -->
 <div class="up">
 <a href="#"><img class="up_img" src="./image/icon/up.png" alt=""></a>
 </div>
-End Up to top -->
-
+<!-- End Up to top -->
 <!-- navbar -->
-<div class="sticky-top bg-light">
-<nav class="container navbar sticky-top navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand " href="#"><img class="navbar_logo" src="./image/logo/logo.png" alt="INFiNITE"></a>
+<div class="navbar_container container-fluid sticky-top">
+<nav class="navbar container navbar-expand-lg navbar-light">
+  <a class="navbar-brand " href="index.html"><img class="navbar_logo" src="./image/logo/logo.png" alt="INFiNITE"></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-    <div class="collapse navbar-collapse justify-content-end bg-light" id="navbarNavAltMarkup">
+    <div class="collapse navbar-collapse justify-content-end " id="navbarNavAltMarkup">
     <div class="navbar-nav">
       <a class="nav-link" href="index.html">Home</a>
-      <li class="dropdown">
-      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      <li class="dropdown"><a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Services
       </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-          <a class="dropdown-item" href="#graphics-design">Graphics Design</a>
-          <a class="dropdown-item" href="#web-design">Web Design</a>
-          <a class="dropdown-item" href="#web-development">Web Development</a>
-          <a class="dropdown-item" href="#software-development">Software Development</a>
-          <a class="dropdown-item" href="#e-Commars">e-Commars Website</a>
-          <a class="dropdown-item" href="#database">Database Security</a>
-          <a class="dropdown-item" href="#security">Security</a>
-          <a class="dropdown-item" href="#seo">SEO</a>
-          <a class="dropdown-item" href="#maintenance">Maintenance</a>
-          <a class="dropdown-item" href="#support">Tech-Support</a>
+          <a class="dropdown-item" href="#">Website Design & Development</a>
+          <a class="dropdown-item" href="#">Graphics Design</a>
+          <a class="dropdown-item" href="#">IT Solutions</a>
+          <a class="dropdown-item" href="#">Search Engine Optimization (SEO)</a>
+          <a class="dropdown-item" href="#">Digital Marketing</a>
+          <a class="dropdown-item" href="#">Software Development Solutions</a>
+          <a class="dropdown-item" href="#">Testing And Maintenance</a>
+          <a class="dropdown-item" href="#">System Management & Implementation</a>
+          <a class="dropdown-item" href="#">Infrastructure As A System</a>
+
         </div>
       </li>
-      <a class="nav-link" href="#contact">Products</a>
+      <li class="dropdown"><a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Products
+      </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="#">ERP Software</a>
+          <a class="dropdown-item" href="#">HR Software</a>
+          <a class="dropdown-item" href="#">POS Software</a>
+          <a class="dropdown-item" href="#">Inventory Management Software</a>
+          <a class="dropdown-item" href="#">E-Commerce Site</a>
+          <a class="dropdown-item" href="#">Commercial Software</a>
+        </div>
+      </li>
       <li class="dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           About Us
@@ -53,6 +63,7 @@ End Up to top -->
           <a class="dropdown-item" href="terms.html">Terms & Conditions</a>
         </div>
       </li>
+      <a class="nav-link" href="signin.html">Signin<img class="nav-img" src="./image/icon/login.png" alt=""></a>
     </div>
   </div>
 </nav>
@@ -66,9 +77,9 @@ End Up to top -->
       <div class="d-flex justify-content-center col-lg-12 col-sm-12 align-self-center">
           <div class="header_box">
             <h1 class="heading_primary ">INFiNITE</h1>
-            <h3 class="heading_secondary margin-top-2">WEB <span class="typeit"></span> </h3>
+            <h3 class="heading_secondary ">WEB <span class="typeit"></span> </h3>
             <!-- <p  class="heading_third margin-top-2">Comitted To Quality ...</p> -->
-            <a class="center-box btn btn-white mt-5" href="#">Explore Services</a>
+            <a class="center-box btn btn-white margin-top-4" href="#">Explore Services</a>
           </div>
       </div>
   </div>
@@ -76,28 +87,296 @@ End Up to top -->
 </div>
 </header>
 <!-- End Header Area -->
+
 <!-- main  -->
 <main>
 <!-- Service  -->
-  <div class="container-fluid">
-    <div class="service">
-      <div class="row">
-        <div class="col-lg-6 col-sm-12 ">
-          <div class="service__one d-flex align-items-center">
-                SRVICES
+<section class="section-service">
+<div class="container-fluid">
+  <div class="service">
+  <!-- row -->
+  <div class="row align-items-center">
+  <div class="col-lg-6 col-sm-12">
+    <div class="service__one">
+      <div class="service__one--content">
+        <h1 class="heading_secondary line-bottom">SERVICES</h1>
+        <p class="heading_para">Creates customized technological solutions for changing customer needs with flawless execution and world class advisory services.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-6 col-sm-12 ">
+    <div class="service__two">
+    <!-- box -->
+    <div class="service__two--box">
+        <div class="service__two--imgbox">
+         <img class="service__two--img" src="./image/icon/solution.png" alt="">
+        </div>
+        <div class="service__two--txtbox">
+          <div class="service__two--title">
+            <a class="" href="#"><h1 class=" service__two--link  heading_third line-bottom">Software Development Solutions</h1></a>
+          </div>
+          <div class="service__two--body">
+            <p class="heading_para">Alongside world-class product portfolio, we also offer customized services for both profit and non-profit organizations. By crafting intelligent and efficient systems that tailor to the exclusive needs of wide array of our clients worldwide.</p>
           </div>
         </div>
-        <div class="col-lg-6 col-sm-12 ">
-          <div class="service__two">
-              SRVICES  LInks
+       </div>
+    <!-- End box -->
+    <!-- box -->
+    <div class="service__two--box">
+       <div class="service__two--imgbox">
+        <img class="service__two--img" src="./image/icon/testing.png" alt="">
+       </div>
+       <div class="service__two--txtbox">
+         <div class="service__two--title">
+           <a class="" href="#"><h1 class=" service__two--link  heading_third line-bottom">Testing And Service</h1></a>
+         </div>
+         <div class="service__two--body">
+           <p class="heading_para">Our test engineers are very experienced in both web and mobile platforms testing from different industry domains. And so far we have an excellent record of client engagement and service delivery.</p>
+         </div>
+       </div>
+      </div>
+    <!-- End box -->
+    <!-- box -->
+    <div class="service__two--box">
+      <div class="service__two--imgbox">
+       <img class="service__two--img" src="./image/icon/management.png" alt="">
+      </div>
+      <div class="service__two--txtbox">
+        <div class="service__two--title">
+          <a class="" href="#"><h1 class=" service__two--link  heading_third line-bottom">Management And Maintenance</h1></a>
+        </div>
+        <div class="service__two--body">
+          <p class="heading_para">software that adheres to all needs and standards, and provides constant support to maintain. Conversion with DataSoft is cost and time effective with guaranteed result</p>
+        </div>
+      </div>
+     </div>
+    <!-- End box -->
+    <!-- box -->
+    <div class="service__two--box">
+     <div class="service__two--imgbox">
+      <img class="service__two--img" src="./image/icon/service.png" alt="">
+     </div>
+     <div class="service__two--txtbox">
+       <div class="service__two--title">
+         <a class="" href="#"><h1 class=" service__two--link  heading_third line-bottom">Infrastructure As a Service</h1></a>
+       </div>
+       <div class="service__two--body">
+         <p class="heading_para">Use our storage and networking capabilities on demand and save your money and resources. We provide uninterrupted IT Infrastructure for even the most complex and demanding organizations. Our service includes advanced Data Centers, Cloud Management and all other IT Infrastructure support</p>
+       </div>
+     </div>
+    </div>
+    <!-- End box -->
+    </div>
+  </div>
+  </div>
+<!-- end row -->
+</div>
+</div>
+</section>
+<!-- End Service -->
+
+<!-- Products -->
+<section class="section-product">
+  <div class="container">
+    <div class="product">
+      <div class="center-text">
+        <h1 class="heading_secondary line-bottom">PRODUCTS</h1>
+        <p class="heading_forth">We have a wide spectrum of products to cater your specific business needs. Being a highly process driven company, we undergo robust quality testing to ensure flawless, round the clock, and world-class performance. All our products come with strong post sales services and client supports.</p>
+      </div>
+      <!-- row -->
+      <div class="row margin-top-6">
+        <div class="col-lg-12 col-sm-12">
+          <div class="owl-carousel owl-theme">
+          <!-- item -->
+          <div class="item">
+            <!-- product box -->
+            <div class="product_box">
+              <div class="product_box__imgbox">
+                <img class="product_box__imgbox--img" src=".\image\banner\about_banner.png" alt="">
+              </div>
+              <div class="product_box__txtbox">
+                <h1 class="product_box__txtbox--title service__two--link  heading_third line-bottom margin-bottom-2">ERP Software</h1>
+                <p class="product_box__txtbox--body heading_para">ERP software for best optimization your business processes. It provides Accurate and timely access to reliable information. It distributes information between all components of the organization and take necessary action to transform raw data into valuable information or report.</p>
+                <a class="btn-read" href="#">Read More</a>
+              </div>
+            </div>
+            <!-- End product box -->
+          </div>
+          <!-- End item -->
+
+          <!-- item -->
+          <div class="item">
+            <!-- product box -->
+            <div class="product_box">
+              <div class="product_box__imgbox">
+                <img class="product_box__imgbox--img" src=".\image\banner\about_banner.png" alt="">
+              </div>
+              <div class="product_box__txtbox">
+                <h1 class="product_box__txtbox--title service__two--link  heading_third line-bottom margin-bottom-2">HR Software</h1>
+                <p class="product_box__txtbox--body heading_para">ERP software for best optimization your business processes. It provides Accurate and timely access to reliable information. It distributes information between all components of the organization and take necessary action to transform raw data into valuable information or report.</p>
+                <a class="btn-read" href="#">Read More</a>
+              </div>
+            </div>
+            <!-- End product box -->
+          </div>
+          <!-- End item -->
+
+          <!-- item -->
+          <div class="item">
+            <!-- product box -->
+            <div class="product_box">
+              <div class="product_box__imgbox">
+                <img class="product_box__imgbox--img" src=".\image\banner\about_banner.png" alt="">
+              </div>
+              <div class="product_box__txtbox">
+                <h1 class="product_box__txtbox--title service__two--link  heading_third line-bottom margin-bottom-2">POS Software</h1>
+                <p class="product_box__txtbox--body heading_para">ERP software for best optimization your business processes. It provides Accurate and timely access to reliable information. It distributes information between all components of the organization and take necessary action to transform raw data into valuable information or report.</p>
+                <a class="btn-read" href="#">Read More</a>
+              </div>
+            </div>
+            <!-- End product box -->
+          </div>
+          <!-- End item -->
+
+          <!-- item -->
+          <div class="item">
+            <!-- product box -->
+            <div class="product_box">
+              <div class="product_box__imgbox">
+                <img class="product_box__imgbox--img" src=".\image\banner\about_banner.png" alt="">
+              </div>
+              <div class="product_box__txtbox">
+                <h1 class="product_box__txtbox--title service__two--link  heading_third line-bottom margin-bottom-2">Inventory Management</h1>
+                <p class="product_box__txtbox--body heading_para">ERP software for best optimization your business processes. It provides Accurate and timely access to reliable information. It distributes information between all components of the organization and take necessary action to transform raw data into valuable information or report.</p>
+                <a class="btn-read" href="#">Read More</a>
+              </div>
+            </div>
+            <!-- End product box -->
+          </div>
+          <!-- End item -->
+
+          <!-- item -->
+          <div class="item">
+            <!-- product box -->
+            <div class="product_box">
+              <div class="product_box__imgbox">
+                <img class="product_box__imgbox--img" src=".\image\banner\about_banner.png" alt="">
+              </div>
+              <div class="product_box__txtbox">
+                <h1 class="product_box__txtbox--title service__two--link  heading_third line-bottom margin-bottom-2">Web Design & Development</h1>
+                <p class="product_box__txtbox--body heading_para">ERP software for best optimization your business processes. It provides Accurate and timely access to reliable information. It distributes information between all components of the organization and take necessary action to transform raw data into valuable information or report.</p>
+                <a class="btn-read" href="#">Read More</a>
+              </div>
+            </div>
+            <!-- End product box -->
+          </div>
+          <!-- End item -->
+          <!-- item -->
+          <div class="item">
+            <!-- product box -->
+            <div class="product_box">
+              <div class="product_box__imgbox">
+                <img class="product_box__imgbox--img" src=".\image\banner\about_banner.png" alt="">
+              </div>
+              <div class="product_box__txtbox">
+                <h1 class="product_box__txtbox--title service__two--link  heading_third line-bottom margin-bottom-2">Graphics Design</h1>
+                <p class="product_box__txtbox--body heading_para">ERP software for best optimization your business processes. It provides Accurate and timely access to reliable information. It distributes information between all components of the organization and take necessary action to transform raw data into valuable information or report.</p>
+                <a class="btn-read" href="#">Read More</a>
+              </div>
+            </div>
+            <!-- End product box -->
+          </div>
+          <!-- End item -->
+
+         </div>
+        </div>
+      </div>
+      <!-- End row -->
+    </div>
+  </div>
+</section>
+<!-- End Products -->
+
+
+</main>
+<!-- End main -->
+<!-- Footer  -->
+<footer class="section-footer">
+ <div class="container">
+   <div class="footer">
+    <div class="row">
+      <div class="col-sm">
+        <div class="footer_about">
+          <a class="" href="#"><h1 class=" service__two--link  heading_third line-bottom margin-bottom-2">INFiNITE</h1></a>
+          <a class="footer_link" href="#">Company Profile</a>
+          <a class="footer_link" href="terms.html">Terms & Conditions</a>
+          <a class="footer_link" href="#">legal & Privacy</a>
+        </div>
+      </div>
+      <div class="col-sm">
+       <div class="footer_service">
+         <a class="" href="#"><h1 class=" service__two--link  heading_third line-bottom margin-bottom-2">PRODUCTS & SERVICES</h1></a>
+         <a class="footer_link" href="#">HR Management</a>
+         <a class="footer_link" href="#">Point Of Sale (POS)</a>
+         <a class="footer_link" href="#">SEO</a>
+         <a class="footer_link" href="#">Digital Marketing</a>
+         <a class="footer_link" href="#">Industrial Solutions</a>
+         <a class="footer_link" href="#">Employe Benifit Management</a>
+       </div>
+      </div>
+      <div class="col-sm">
+        <div class="footer_contact">
+          <a class="" href="#"><h1 class=" service__two--link  heading_third line-bottom margin-bottom-2">CONTACT</h1></a>
+
+          <div class="footer_contact--box">
+          <div class="footer_contact--imgbox">
+            <img class="footer_contact--img" src="./image/icon/location.png" alt="">
+          </div>
+          <div class="footer_contact--txtbox">
+            <div class="footer_contact--body">
+              <p class="heading_para">RK Tower (9th Floor),Banglamotor, Dhaka</p>
+            </div>
+          </div>
+          </div>
+
+          <div class="footer_contact--box">
+          <div class="footer_contact--imgbox">
+            <img class="footer_contact--img" src="./image/icon/phone.png" alt="">
+          </div>
+          <div class="footer_contact--txtbox">
+            <div class="footer_contact--body">
+              <p class="heading_para">01679807227</p>
+            </div>
+          </div>
+          </div>
+
+          <div class="footer_contact--box">
+          <div class="footer_contact--imgbox">
+            <img class="footer_contact--img" src="./image/icon/mail.png" alt="">
+          </div>
+          <div class="footer_contact--txtbox">
+            <div class="footer_contact--body">
+              <p class="heading_para">infinite@gmail.com</p>
+            </div>
+          </div>
           </div>
         </div>
       </div>
     </div>
+   </div>
+   <div class="footer_bottom margin-top-6">
+      <div class="row align-items-center">
+        <div class="col-sm center-text line-up ">
+          <p class="heading_para margin-top-2">Copyright © 2017 – 2020 <a href="index.html">INFiNITE</a></p>
+        </div>
+      </div>
   </div>
-<!-- End Service -->
-</main>
-<!-- End main -->
+ </div>
+</footer>
+<!-- End Footer  -->
+
+
+
 
 <!-- typeit  js -->
 <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
@@ -117,8 +396,36 @@ var typed = new Typed('.typeit', {
   fadeOutDelay: 500,
   });
 </script>
-<!-- flickity JavaScript -->
-<script src="./js/flickity.pkgd.min.js"></script>
+<!-- Owl Carousel JavaScript -->
+<script src="./js/jquery.min.js"></script>
+<script src="./js/owl.carousel.js"></script>
+<script type="text/javascript">
+// owl
+$('.owl-carousel').owlCarousel({
+  loop:true,
+  autoplay:true,
+  smartSpeed:500,
+  margin:10,
+  autoWidth:true,
+  items:4,
+  responsiveClass:true,
+  responsive:{
+      0:{
+          items:1,
+          nav:true
+      },
+      600:{
+          items:3,
+          nav:false
+      },
+      1000:{
+          items:5,
+          nav:true,
+          loop:false
+      }
+  }
+})
+</script>
 <!-- Optional JavaScript jQuery first, then Popper.js, then Bootstrap JS -->
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
