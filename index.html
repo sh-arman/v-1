@@ -14,12 +14,12 @@
 <body>
 <!-- Up to top -->
 <div class="up">
-<a href="#"><img class="up_img" src="./image/icon/up.png" alt=""></a>
+ <a href="#"><img class="up_img" src="./image/icon/up.png" alt=""></a>
 </div>
 <!-- End Up to top -->
 <!-- navbar -->
 <div class="navbar_container container-fluid sticky-top">
-<nav class="navbar container navbar-expand-lg navbar-light">
+ <nav class="navbar container navbar-expand-lg navbar-light">
   <a class="navbar-brand " href="index.html"><img class="navbar_logo" src="./image/logo/logo.png" alt="INFiNITE"></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
     <div class="collapse navbar-collapse justify-content-end " id="navbarNavAltMarkup">
@@ -41,18 +41,8 @@
 
         </div>
       </li>
-      <li class="dropdown"><a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Products
-      </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-          <a class="dropdown-item" href="#">ERP Software</a>
-          <a class="dropdown-item" href="#">HR Software</a>
-          <a class="dropdown-item" href="#">POS Software</a>
-          <a class="dropdown-item" href="#">Inventory Management Software</a>
-          <a class="dropdown-item" href="#">E-Commerce Site</a>
-          <a class="dropdown-item" href="#">Commercial Software</a>
-        </div>
-      </li>
+      <a class="nav-link" href="product.html">Products</a>
+
       <li class="dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           About Us
@@ -74,12 +64,14 @@
 <div class="header">
   <div class="container">
     <div class="row">
-      <div class="d-flex justify-content-center col-lg-12 col-sm-12 align-self-center">
-          <div class="header_box">
+      <div class="col d-flex justify-content-center">
+          <div class="margin-top-4">
             <h1 class="heading_primary ">INFiNITE</h1>
             <h3 class="heading_secondary ">WEB <span class="typeit"></span> </h3>
             <!-- <p  class="heading_third margin-top-2">Comitted To Quality ...</p> -->
-            <a class="center-box btn btn-white margin-top-4" href="#">Explore Services</a>
+            <div class="d-flex justify-content-center">
+              <a class=" btn btn-white margin-top-4" href="#">Explore Services</a>
+            </div>
           </div>
       </div>
   </div>
@@ -100,7 +92,7 @@
     <div class="service__one">
       <div class="service__one--content">
         <h1 class="heading_secondary line-bottom">SERVICES</h1>
-        <p class="heading_para">Creates customized technological solutions for changing customer needs with flawless execution and world class advisory services.</p>
+        <p class="heading_para center-text">Creates customized technological solutions for changing customer needs with flawless execution and world class advisory services.</p>
       </div>
     </div>
   </div>
@@ -181,7 +173,7 @@
     <div class="product">
       <div class="center-text">
         <h1 class="heading_secondary line-bottom">PRODUCTS</h1>
-        <p class="heading_forth">We have a wide spectrum of products to cater your specific business needs. Being a highly process driven company, we undergo robust quality testing to ensure flawless, round the clock, and world-class performance. All our products come with strong post sales services and client supports.</p>
+        <p class="heading_para">We have a wide spectrum of products to cater your specific business needs. Being a highly process driven company, we undergo robust quality testing to ensure flawless, round the clock, and world-class performance. All our products come with strong post sales services and client supports.</p>
       </div>
       <!-- row -->
       <div class="row margin-top-6">
@@ -305,17 +297,26 @@
  <div class="container">
    <div class="footer">
     <div class="row">
-      <div class="col-sm">
-        <div class="footer_about">
-          <a class="" href="#"><h1 class=" service__two--link  heading_third line-bottom margin-bottom-2">INFiNITE</h1></a>
+      <div class="col-md-3 col-sm-6 col-xs-12 margin-bottom-2">
+        <a class="" href="#"><h2 class="footer_title line-bottom">INFiNITE</h2></a>
           <a class="footer_link" href="#">Company Profile</a>
           <a class="footer_link" href="terms.html">Terms & Conditions</a>
           <a class="footer_link" href="#">legal & Privacy</a>
-        </div>
       </div>
-      <div class="col-sm">
+      <div class="col-md-3 col-sm-6 col-xs-12 margin-bottom-2">
+         <a class="" href="#"><h2 class="footer_title line-bottom">SERVICES</h2></a>
+         <a class="footer_link" href="#">Website Design & Development</a>
+         <a class="footer_link" href="#">IT Solutions</a>
+         <a class="footer_link" href="#">Digital Marketing</a>
+         <a class="footer_link" href="#">Software Development Solutions</a>
+         <a class="footer_link" href="#">Industrial Solutions</a>
+         <a class="footer_link" href="#">Infrastructure As A System</a>
+         <a class="footer_link" href="#">Testing And Maintenance</a>
+         <a class="footer_link" href="#">System Management & Implementation</a>
+      </div>
+      <div class="col-md-3 col-sm-6 col-xs-12 margin-bottom-2">
        <div class="footer_service">
-         <a class="" href="#"><h1 class=" service__two--link  heading_third line-bottom margin-bottom-2">PRODUCTS & SERVICES</h1></a>
+         <a class="" href="#"><h2 class="footer_title line-bottom">PRODUCTS</h2></a>
          <a class="footer_link" href="#">HR Management</a>
          <a class="footer_link" href="#">Point Of Sale (POS)</a>
          <a class="footer_link" href="#">SEO</a>
@@ -324,17 +325,16 @@
          <a class="footer_link" href="#">Employe Benifit Management</a>
        </div>
       </div>
-      <div class="col-sm">
+      <div class="col-md-3 col-sm-6 col-xs-12">
         <div class="footer_contact">
-          <a class="" href="#"><h1 class=" service__two--link  heading_third line-bottom margin-bottom-2">CONTACT</h1></a>
-
+          <a class="" href="#"><h2 class="footer_title line-bottom">CONTACT</h2></a>
           <div class="footer_contact--box">
           <div class="footer_contact--imgbox">
             <img class="footer_contact--img" src="./image/icon/location.png" alt="">
           </div>
           <div class="footer_contact--txtbox">
             <div class="footer_contact--body">
-              <p class="heading_para">RK Tower (9th Floor),Banglamotor, Dhaka</p>
+              <p class="heading_forth">RK Tower (9th Floor),Banglamotor, Dhaka</p>
             </div>
           </div>
           </div>
@@ -345,7 +345,7 @@
           </div>
           <div class="footer_contact--txtbox">
             <div class="footer_contact--body">
-              <p class="heading_para">01679807227</p>
+              <p class="heading_forth">01679807227</p>
             </div>
           </div>
           </div>
@@ -356,7 +356,7 @@
           </div>
           <div class="footer_contact--txtbox">
             <div class="footer_contact--body">
-              <p class="heading_para">infinite@gmail.com</p>
+              <p class="heading_forth">infinite@gmail.com</p>
             </div>
           </div>
           </div>
